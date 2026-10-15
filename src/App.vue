@@ -1,7 +1,7 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <HelloWorld />
+  <TreeTable />
 </template>
+
+<script setup lang="ts">
+import TreeTable from './components/TreeTable.vue';
+</script>
